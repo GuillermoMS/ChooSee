@@ -1,0 +1,72 @@
+#cont-reg-text{
+
+}
+
+#cont-reg-text h3{
+    padding-left: 100px;
+}
+
+
+#cont-reg{
+    /*color: rgba(88, 214, 217, 1);*/
+    margin-left: 100px;
+}
+
+#cont-reg input{
+    width: 200px;
+}
+
+#cont-reg input[type="text"]{
+    padding-left: 5px;
+}
+
+#cont-reg input::-webkit-input-placeholder { color: black; }
+#cont-reg input:-moz-placeholder { color: black; }
+#cont-reg input::-moz-placeholder { color: black; }
+#cont-reg input:-ms-input-placeholder { color: black; }
+
+
+
+
+
+.cont-input-register .glyphicon{
+    color: rgba(45, 154, 180, 1);
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+#condition-legal{
+    cursor: pointer;
+}
+
+#regis{
+    margin-left:22px ;
+    width: 100px;
+
+}
+
+#condition{
+    width: 20px !important;
+}
+
+#leyendCondition{
+    width: 130px;
+    font-size: 12px;
+    color:  black;
+    font-weight: normal;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    #cont-reg {
+        margin-left: 70px !important;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    #cont-reg {
+        margin-left: 70px !important;
+    }
+}
+
+

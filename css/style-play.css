@@ -1,0 +1,283 @@
+#cont-play{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#play{
+    text-align: center;
+}
+
+#play video{
+    width: 800px;
+}
+
+/* INFO VIDEO */
+
+#text-play{
+    padding-top: 5px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#text-play p{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#cont-play #likes{
+    display: inline-block;
+    font-weight: normal;
+    color: #3c763d;
+    margin-right: 10px;
+}
+
+#cont-play #disLikes{
+    display: inline-block;
+    font-weight: normal;
+    color: #d9534f;
+    margin-left:10px ;
+}
+
+#cont-play #description{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+#text-play #nameVideo{
+    font-size: 20px;
+    width: 100%;
+    color: rgba(88, 214, 217, 1);
+}
+
+#autorVideo{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* COMMENT */
+
+
+#msgNewComment{
+    color: rgb(45, 154, 180);
+    font-weight: bold;
+}
+
+#cont-comment{
+    text-align: center;
+}
+
+#cont-newCommet{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 800px;
+
+
+}
+
+#newComment{
+    display: block;
+    width: 100%;
+    padding: 0;
+    padding-top: 5px;
+    resize:vertical;
+    min-height: 50px;
+    padding-left: 30px;
+}
+
+#btn-newComment{
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 50px;
+}
+
+.comment{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 800px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.textComment{
+    padding: 5px;
+    text-align: left;
+}
+
+.dataComment{
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 5px;
+}
+
+.dataComment span{
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+.editComment{
+    width: 100%;
+    resize:vertical;
+}
+
+#copy-legend{
+    color: rgb(45, 154, 180);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btns-comment{
+    text-align: initial;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 970px){
+    #play video {
+        width: 700px;
+    }
+    #text-play {
+        width: 700px
+    }
+    #cont-newCommet {
+        width: 700px
+    }
+    .comment{
+        width: 700px
+    }
+}
+
+@media only screen and (max-width: 830px){
+    #play video {
+        width: 650px;
+    }
+    #text-play {
+        width: 650px
+    }
+    #cont-newCommet {
+        width: 650px
+    }
+    .comment{
+        width: 650px
+    }
+}
+
+@media only screen and (max-width: 760px){
+    #play video {
+        width: 600px;
+    }
+    #text-play {
+        width: 600px
+    }
+    #cont-newCommet {
+        width: 600px
+    }
+    .comment{
+        width: 600px
+    }
+}
+
+@media only screen and (max-width: 676px){
+    #play video {
+        width: 500px;
+    }
+    #text-play {
+        width: 500px
+    }
+    #cont-newCommet {
+        width: 500px
+    }
+    .comment{
+        width: 500px
+    }
+}
+
+@media only screen and (max-width: 556px){
+    #play video {
+        width: 400px;
+    }
+    #text-play {
+        width: 400px
+    }
+    #cont-newCommet {
+        width: 400px
+    }
+    .comment{
+        width: 400px
+    }
+}
+
+@media only screen and (max-width: 430px){
+    #play video {
+        width: 300px;
+    }
+    #text-play {
+        width: 300px
+    }
+    #cont-newCommet {
+        width: 300px
+    }
+    .comment{
+        width: 300px
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #play video {
+        width: 330px;
+    }
+    #text-play {
+        width: 330px
+    }
+    #cont-newCommet {
+        width: 330px
+    }
+    .comment{
+        width: 330px
+    }
+}
+
+@media only screen and (max-width: 325px){
+    #play video {
+        width: 250px;
+    }
+    #text-play {
+        width: 250px
+    }
+    #cont-newCommet {
+        width: 250px
+    }
+    .comment{
+        width: 250px
+    }
+}
+
+@media only screen and (max-width: 290px){
+    #play video {
+        width: 200px;
+    }
+    #text-play {
+        width: 200px
+    }
+    #cont-newCommet {
+        width: 200px
+    }
+    .comment{
+        width: 200px
+    }
+}
+
+
+
+
+
+

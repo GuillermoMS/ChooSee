@@ -1,0 +1,11 @@
+#RewriteEngine on
+#
+##No mostrar las www
+#RewriteCond %{http_host} ^www\.example\.com[nc]
+#RewriteRule ^(.*)$ http://example.com/$1 [r=301,nc]
+#
+#RewriteCond %{REQUEST_FILNAME} !d
+#RewriteCond %{REQUEST_FILNAME} !f
+#
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\\ /index\\.html\\ HTTP/
+#RewriteRule ^index\\.html$ http://choosee.sytes.net/ [R=301,L]
